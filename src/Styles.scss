@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import "./Components/Header/Header.scss";
+@import "./Components/Footer/Footer.scss";
+@import "./Components/SubHeader/SubHeader.scss";
+@import "./Components/Home/Home.scss";
+@import "./Components/ShopCard/ShopCard.scss";
+@import "./Components/Modal/Modal.scss";
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+$Light_grey: #dce0e8;
+$Dark_grey: #adc3ca;
+$Light_purple: #cba2c4;
+$Dark_purple: #b25792;
+$Yellow: #d7d801;
+
+.App {
+  position: relative;
+  background-color: $Light_grey;
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: none;
+  outline: none;
+  padding: 4px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.margin {
+  margin-top: 10px;
+}

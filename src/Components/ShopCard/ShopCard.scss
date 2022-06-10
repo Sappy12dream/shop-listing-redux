@@ -1,0 +1,28 @@
+.card {
+  font-weight: 700;
+}
+.Shop__card {
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px;
+  margin: 5px 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  .shop__name {
+    grid-column: span 2 / span 2;
+  }
+  .shop__action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  @media only screen and (max-width: 768px) {
+    .Shop__card {
+      padding: 0;
+    }
+    .font {
+      font-size: 12px;
+    }
+  }
+}
