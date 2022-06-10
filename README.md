@@ -1,3 +1,17 @@
+# Introduction
+
+An app to list shop
+
+- Filters based on area, category and status (open/closed)
+- Add shop, edit and delete
+- Validations 
+
+# Tools
+- React JS
+- Redux
+
+# URl : https://comfy-daffodil-2fe858.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
